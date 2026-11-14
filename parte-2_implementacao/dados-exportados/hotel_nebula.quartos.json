@@ -1,0 +1,59 @@
+[{
+  "_id": {
+    "$oid": "6af89fba96fc0992bac7c5f8"
+  },
+  "numero": 402,
+  "tipo": "Luxo Casal",
+  "preco_diaria": {
+    "$numberDecimal": "450"
+  },
+  "capacidade": 2,
+  "caracteristicas": [
+    "vista para o mar",
+    "banheira",
+    "varanda",
+    "frigobar",
+    "ar-condicionado"
+  ],
+  "status": "disponivel"
+},
+{
+  "_id": {
+    "$oid": "6af8a2fd96fc0992bac7c602"
+  },
+  "numero": 105,
+  "tipo": "Standard Solteiro",
+  "preco_diaria": {
+    "$numberDecimal": "180"
+  },
+  "capacidade": 1,
+  "caracteristicas": [
+    "wi-fi",
+    "ar-condicionado",
+    "tv smart"
+  ],
+  "status": "disponivel"
+},
+{
+  "_id": {
+    "$oid": "6af8a31896fc0992bac7c604"
+  },
+  "numero": 501,
+  "tipo": "Suíte Presidencial",
+  "preco_diaria": {
+    "$numberDecimal": "950"
+  },
+  "capacidade": 4,
+  "caracteristicas": [
+    "vista para o mar",
+    "banheira",
+    "varanda",
+    "cozinha americana",
+    "closet"
+  ],
+  "servicos_inclusos": [
+    "café da manhã no quarto",
+    "acesso ao spa"
+  ],
+  "status": "ocupado"
+}]

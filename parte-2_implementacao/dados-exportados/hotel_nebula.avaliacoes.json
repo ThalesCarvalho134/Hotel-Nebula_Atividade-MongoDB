@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6af89d4796fc0992bac7c5ed"
+  },
+  "quarto_id": {
+    "$oid": "6af89fba96fc0992bac7c5f8"
+  },
+  "hospede_id": {
+    "$oid": "6af89f3296fc0992bac7c5f4"
+  },
+  "nota": 5,
+  "comentario": "Quarto espetacular, vista incrível e atendimento impecável!",
+  "data": {
+    "$date": "2026-12-25T12:00:00.000Z"
+  }
+}]

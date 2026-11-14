@@ -1,0 +1,128 @@
+[{
+  "_id": {
+    "$oid": "6af8a0a496fc0992bac7c5ff"
+  },
+  "hospede": {
+    "id": {
+      "$oid": "6af89f3296fc0992bac7c5f4"
+    },
+    "nome": "Camila Silva",
+    "telefone": "+55 11 98765-4321"
+  },
+  "quarto": {
+    "id": {
+      "$oid": "6af89fba96fc0992bac7c5f8"
+    },
+    "numero": 402,
+    "tipo": "Luxo Casal"
+  },
+  "data_checkin_prevista": {
+    "$date": "2026-04-15T00:00:00.000Z"
+  },
+  "data_checkout_prevista": {
+    "$date": "2026-04-20T00:00:00.000Z"
+  },
+  "status_reserva": "confirmada",
+  "valor_total_estimado": {
+    "$numberDecimal": "2250"
+  },
+  "criada_em": {
+    "$date": "2026-03-25T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6af8a4f696fc0992bac7c61a"
+  },
+  "hospede": {
+    "id": {
+      "$oid": "6af8a42b96fc0992bac7c609"
+    },
+    "nome": "Mariana Costa",
+    "telefone": "+55 31 98888-7777"
+  },
+  "quarto": {
+    "id": {
+      "$oid": "6af8a31896fc0992bac7c604"
+    },
+    "numero": 501,
+    "tipo": "Suíte Presidencial"
+  },
+  "data_checkin_prevista": {
+    "$date": "2026-05-10T00:00:00.000Z"
+  },
+  "data_checkout_prevista": {
+    "$date": "2026-05-15T00:00:00.000Z"
+  },
+  "status_reserva": "em_andamento",
+  "valor_total_estimado": {
+    "$numberDecimal": "4750"
+  },
+  "criada_em": {
+    "$date": "2026-04-20T11:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6af8a52b96fc0992bac7c61e"
+  },
+  "hospede": {
+    "id": {
+      "$oid": "6af8a41596fc0992bac7c607"
+    },
+    "nome": "Rafael Mendes",
+    "telefone": "+55 21 99123-4567"
+  },
+  "quarto": {
+    "id": {
+      "$oid": "6af8a2fd96fc0992bac7c602"
+    },
+    "numero": 105,
+    "tipo": "Standard Solteiro"
+  },
+  "data_checkin_prevista": {
+    "$date": "2026-03-20T00:00:00.000Z"
+  },
+  "data_checkout_prevista": {
+    "$date": "2026-03-23T00:00:00.000Z"
+  },
+  "status_reserva": "concluida",
+  "valor_total_estimado": {
+    "$numberDecimal": "540"
+  },
+  "criada_em": {
+    "$date": "2026-03-18T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6af8a5d996fc0992bac7c622"
+  },
+  "hospede": {
+    "id": {
+      "$oid": "6af8a41596fc0992bac7c607"
+    },
+    "nome": "Rafael Mendes",
+    "telefone": "+55 21 99123-4567"
+  },
+  "quarto": {
+    "id": {
+      "$oid": "6af89fba96fc0992bac7c5f8"
+    },
+    "numero": 402,
+    "tipo": "Luxo Casal"
+  },
+  "data_checkin_prevista": {
+    "$date": "2026-06-01T00:00:00.000Z"
+  },
+  "data_checkout_prevista": {
+    "$date": "2026-06-04T00:00:00.000Z"
+  },
+  "status_reserva": "cancelada",
+  "valor_total_estimado": {
+    "$numberDecimal": "1350"
+  },
+  "criada_em": {
+    "$date": "2026-04-28T18:00:00.000Z"
+  }
+}]

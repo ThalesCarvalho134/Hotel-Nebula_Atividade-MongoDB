@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "6af89f3296fc0992bac7c5f4"
+  },
+  "nome": "Camila Silva",
+  "email": "camila.silva@email.com",
+  "telefone": "+55 11 98765-4321",
+  "documento": "123.456.789-00",
+  "endereco": {
+    "rua": "Av. Paulista, 1000",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "pais": "Brasil"
+  },
+  "data_cadastro": {
+    "$date": "2026-03-10T14:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6af8a41596fc0992bac7c607"
+  },
+  "nome": "Rafael Mendes",
+  "email": "rafael.mendes@techcorp.com",
+  "telefone": "+55 21 99123-4567",
+  "documento": "987.654.321-11",
+  "empresa": "TechCorp Brasil",
+  "endereco": {
+    "rua": "Rua Visconde de Pirajá, 350",
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ",
+    "pais": "Brasil"
+  },
+  "data_cadastro": {
+    "$date": "2026-03-18T09:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6af8a42b96fc0992bac7c609"
+  },
+  "nome": "Mariana Costa",
+  "email": "mariana.costa@email.com",
+  "telefone": "+55 31 98888-7777",
+  "documento": "456.789.123-22",
+  "programa_fidelidade": "Nebula Gold",
+  "endereco": {
+    "rua": "Av. do Contorno, 1200",
+    "cidade": "Belo Horizonte",
+    "estado": "MG",
+    "pais": "Brasil"
+  },
+  "data_cadastro": {
+    "$date": "2026-04-02T16:45:00.000Z"
+  }
+}]

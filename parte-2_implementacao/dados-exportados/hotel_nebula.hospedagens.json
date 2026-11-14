@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "6af89ec696fc0992bac7c5f1"
+  },
+  "reserva_id": {
+    "$oid": "64a1b2c3d4e5f67890123433"
+  },
+  "hospede_id": {
+    "$oid": "6af89f3296fc0992bac7c5f4"
+  },
+  "quarto_numero": 402,
+  "data_checkin_real": {
+    "$date": "2026-04-15T15:10:00.000Z"
+  },
+  "data_checkout_real": null,
+  "status": "ativa",
+  "servicos_consumidos": [
+    {
+      "servico": "Frigobar",
+      "item": "Água Mineral 500ml",
+      "quantidade": 2,
+      "valor_unitario": {
+        "$numberDecimal": "8"
+      },
+      "data": {
+        "$date": "2026-04-16T20:00:00.000Z"
+      }
+    },
+    {
+      "servico": "Room Service",
+      "item": "Jantar Executivo",
+      "quantidade": 1,
+      "valor_unitario": {
+        "$numberDecimal": "95"
+      },
+      "data": {
+        "$date": "2026-04-17T21:30:00.000Z"
+      }
+    }
+  ],
+  "pagamento": {
+    "metodo": "Cartão de Crédito",
+    "status": "parcial",
+    "valor_pago": {
+      "$numberDecimal": "2250"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "6af8a62296fc0992bac7c626"
+  },
+  "hospede_id": {
+    "$oid": "6af8a42b96fc0992bac7c609"
+  },
+  "quarto_id": {
+    "$oid": "6af8a31896fc0992bac7c604"
+  },
+  "data_checkin_real": {
+    "$date": "2026-05-10T14:15:00.000Z"
+  },
+  "data_checkout_real": null,
+  "status": "ativa",
+  "servicos_consumidos": [
+    {
+      "servico": "Frigobar",
+      "item": "Água Mineral 500ml",
+      "quantidade": 2,
+      "valor_unitario": {
+        "$numberDecimal": "8"
+      },
+      "data": {
+        "$date": "2026-05-11T10:30:00.000Z"
+      }
+    },
+    {
+      "servico": "Room Service",
+      "item": "Jantar Executivo",
+      "quantidade": 1,
+      "valor_unitario": {
+        "$numberDecimal": "95"
+      },
+      "data": {
+        "$date": "2026-05-11T20:00:00.000Z"
+      }
+    }
+  ],
+  "pagamento": {
+    "metodo": "Cartão de Crédito",
+    "status_pagamento": "pendente",
+    "valor_total": {
+      "$numberDecimal": "4853"
+    }
+  },
+  "quarto_numero": 501
+}]
